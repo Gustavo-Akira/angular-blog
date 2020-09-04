@@ -1,0 +1,26 @@
+.icon{
+    color:white;
+}
+.icoFacebook:hover{
+    color: #3b5998;
+}
+
+.icoInstagram:hover{
+    color:#c13584
+}
+
+.icoLinkedin :hover{
+    color: #0072b1;
+}
+
+.social-networks{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.social-networks > li{
+    display: inline;
+    padding: 5px;
+    font-size: 35px;
+}
