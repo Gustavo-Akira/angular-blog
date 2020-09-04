@@ -10,6 +10,8 @@ import { FooterComponent } from './footer/footer.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { HttpClientModule } from '@angular/common/http';
+import { FeedItemComponent } from './feed-item/feed-item.component';
+import { SendPostComponent } from './send-post/send-post.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -17,7 +19,9 @@ import { HttpClientModule } from '@angular/common/http';
     FeedComponent,
     ContactComponent,
     FooterComponent,
-    NavbarComponent
+    NavbarComponent,
+    FeedItemComponent,
+    SendPostComponent
   ],
   imports: [
     BrowserModule,

@@ -1,10 +1,10 @@
 export class Post{
-    constructor(id, name, mensagem){
+    constructor(id, name, mensage){
         this.id = id;
         this.name = name;
-        this.mensagem = mensagem;
+        this.mensage = mensage;
     }
     id?:String;
     name:String;
-    mensagem:String;
+    mensage:String;
 }
